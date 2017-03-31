@@ -21,10 +21,6 @@ body {
   color: #222;
 }
 
-#header {
-  background: #3862a3;
-}
-
 h1, h2, h3, h4 {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
 }
@@ -363,10 +359,6 @@ div.wiki li {
   color:#222;
 }
 
-#top-menu {
-  background-color: #2C3957;
-}
-
 #top-menu #loggedas {
     color: #ccc;
 }
@@ -535,4 +527,17 @@ body.controller-news.action-index .wiki {
 
 .contextual .icon:first-child, .buttons .icon:first-child {
   margin-left: 0;
+}
+
+/* リポジトリ画面でコミットメッセージを目立たせる */
+table.revision-info {
+  color: #959595;
+}
+
+table.revision-info a {
+  color:#70A7CD;
+}
+
+table.revision-info a:hover {
+  color:#D14848;
 }
